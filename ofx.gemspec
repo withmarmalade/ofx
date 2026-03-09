@@ -27,6 +27,7 @@ TXT
   s.require_paths = ["lib"]
 
   s.add_dependency "nokogiri"
+  s.add_dependency "nkf"
   s.add_development_dependency "rspec"
   s.add_development_dependency "rake"
 end
